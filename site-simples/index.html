@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Simples</title>
+    <link rel="stylesheet" href="estilo.css">
+  
+</head>
+<body>
+    <header>
+        <h1>Clínica da Mulher</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img id="doutora"src="img/doutora2.webp.webp">
+        </div>
+        <div class="box-txt">
+            <span>MARQUE SUA CONSULTA</span>
+            <h2>Saúde plena,<br>
+                Vida serena!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odio? Delectus, eum aspernatur eaque error itaque cupiditate impedit sunt praesentium odio explicabo illo tempora exercitationem asperiores minima quidem blanditiis ad?</p>
+
+                <a target="_blank"   href="https://wa.me/5599999999999?text=Ol%C3%A1+gostaria+de+marcar+uma+consulta" class="btn-hero">Marcar Consulta</a>
+        </div>
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Especialidade 1</h3>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam officia accusamus sequi consectetur dolores neque beatae eveniet, doloribus vel fugit velit quo ullam deleniti eos, nisi nihil eius accusantium dolorem.</p>
+        </div>
+        <div class="box-item"> <h3>Especialidade 2</h3>
+
+            <p> ipsum dolor, sit amet consectetur adipisicing elit. Asperiores vitae quidem eaque dolorem, nisi iusto expedita debitis blanditiis quia cupiditate voluptates ut atque. Ipsum cumque consectetur itaque, voluptate quod rerum?</p>
+        </div>
+
+        <div class="box-item"><h3>Especialidade 3</h3>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam officia accusamus sequi consectetur dolores neque beatae eveniet, doloribus vel fugit velit quo ullam deleniti eos, nisi nihil eius accusantium dolorem.</p></div>
+
+            <a target="_blank"   href="https://wa.me/5599999999999?text=Ol%C3%A1+gostaria+de+marcar+uma+consulta"class="m-top btn-hero">Marcar Consulta</a>
+    </section>
+
+    <section class="especialidades"></section>
+
+    <footer>
+        <p>2024 © Clínica da Mulher. Todos os direitos reservados.</p>
+
+    </footer>
+
+    <div class="whast">
+        <a target="_blank"   href="https://wa.me/5599999999999?text=Ol%C3%A1+gostaria+de+marcar+uma+consulta">
+        <img width="50" src="img/whatsapp-logomarca7.png" alt="Símbolo do iconi do Wastsapp">
+    </a>
+
+    </div>
+
+    <script>
+        //pegar o elemento
+        const doutora = document.getElementById('doutora');
+        //evento quando o mause estiver por cima da imagem
+        doutora.addEventListener('mouseover', function(){
+            doutora.src ="img/doutora2.webp";
+        });
+
+        doutora.addEventListener('mouseout', function(){
+            doutora.src ="img/doutora3.webp";
+        });
+
+    </script>
+
+
+</body>
+
+
+
+</html>
